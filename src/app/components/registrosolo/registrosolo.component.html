@@ -1,0 +1,14 @@
+<h1>{{clientes.nombre}} {{clientes.apellido}} </h1>
+<hr>
+<div class="row">
+    <div class="col-md-8">
+        <h3>{{clientes.fecha}}</h3>
+        <hr>
+        <p>
+            {{clientes.tipo}}
+            {{clientes.descrip}}
+        </p>    
+    </div>
+    <a [routerLink]="['/formulario']" class="btn btn-outilne-danger btn-block"> Regresar </a>
+</div>
+
